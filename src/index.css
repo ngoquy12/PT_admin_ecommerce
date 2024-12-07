@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#admin-menu .active {
+  background-color: #334155;
+  border-left: 4px solid #1d4ed8;
+}
