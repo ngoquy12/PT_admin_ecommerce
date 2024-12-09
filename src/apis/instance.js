@@ -10,7 +10,7 @@ const jsonAxios = axios.create({
 jsonAxios.interceptors.request.use(
   (config) => {
     const token =
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJudnF1eUBnbWFpbC5jb20iLCJpYXQiOjE3MzM0OTQyMTQsImV4cCI6MTc0MjEzNDIxNH0.3Dhwx9gtW29tP9zKftpudbgEAdGYORWX67l_wwhEGRQ";
+      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJudnF1eUBnbWFpbC5jb20iLCJpYXQiOjE3MzM3NDYyOTksImV4cCI6MTc0MjM4NjI5OX0.9zI84sfvU-FrYBTHd4NpCpqyVkYEpTdXyGQQsVBm8D0";
 
     config.headers.Authorization = token;
 
